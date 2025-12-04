@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
 
-        string relative_address = "..\\..\\..\\..\\01 EXE - No Protection Against Reflection\\bin\\Debug\\net7.0\\01 EXE - No Protection Against Reflection.dll";//Address Of Target Assembly
+        string relative_address = "..\\..\\..\\..\\01 EXE - No Protection Against Reflection\\bin\\Debug\\net9.0\\01 EXE - No Protection Against Reflection.dll";//Address Of Target Assembly
         string full_path = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), relative_address);
 
         Console.WriteLine("Execution Of Internal Constructor: ");

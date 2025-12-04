@@ -8,7 +8,7 @@ class Program
 
         //Adapted From: https://stackoverflow.com/questions/38909666/how-to-use-reflection-in-c-sharp-to-extract-class-and-method-information-from-ex
 
-        string relative_address = "..\\..\\..\\..\\03 EXE - Protected Against Reflection\\bin\\Debug\\net7.0\\03 EXE - Protected Against Reflection.dll";
+        string relative_address = "..\\..\\..\\..\\03 EXE - Protected Against Reflection\\bin\\Debug\\net9.0\\03 EXE - Protected Against Reflection.dll";
         string full_path = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), relative_address);
         var assembly = Assembly.LoadFile(full_path);
 
